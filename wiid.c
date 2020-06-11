@@ -7,15 +7,17 @@ int main() {
 	printf("a : ");
 	scanf("%d", &a);
 	
-	for(int i = 0; i <= a; i++) {	
+	for(int i = 1; i <= a; i++) {	
 		printf("%d ", fib(i));
 	}
 
+	printf("\n");
+	
 	return 0;
 }
 
 int fib(int n) {
-	if(n == 0 || n == 1) return 1;
+	if(n == 1 || n == 2) return 1;
 
 	return fib(n-1) + fib(n-2);
 }
