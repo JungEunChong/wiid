@@ -5,6 +5,8 @@ int ffib(int n);
 int xib(int n);
 
 int main() {
+	printf("///// FIB's Number /////\n\n");
+
 	int a;
 	printf("a : ");
 	scanf("%d", &a);
